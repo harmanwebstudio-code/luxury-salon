@@ -1,44 +1,215 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Luxury Salon</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#000;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#d4af37;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200') center/cover;
+}
+
+.hero h1{
+font-size:48px;
+color:#d4af37;
+}
+
+.hero p{
+margin:20px 0;
+font-size:20px;
+max-width:600px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+margin:10px;
+border-radius:8px;
+background:#d4af37;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
 </head>
-<body style="background:#111;color:white;text-align:center;font-family:Arial;">
 
-<h1 style="color:gold;">Luxury Salon</h1>
+<body>
 
-<h2>Premium Hair & Grooming Services</h2>
+<header>
+<div class="logo">Luxury Salon</div>
 
-<p>Luxury Salon - Goregaon West, Mumbai</p>
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
 
-<a href="tel:07045456348">
-<button style="padding:15px 30px;">Call Now</button>
-</a>
+</header>
 
-<h2 style="color:gold;">Our Services</h2>
+<section class="hero">
 
-<p>
-✂️ Hair Cut<br>
-🧔 Beard Styling<br>
-💆 Hair Spa<br>
-🎨 Hair Coloring<br>
-🧴 Facial<br>
-🏆 Hair Wash & Styling
-</p>
+<h1>Luxury Salon</h1>
 
-<h2 style="color:gold;">Contact Us</h2>
+<p>Premium Hair, Beard & Grooming Services in Goregaon West, Mumbai.</p>
+
+<a class="btn" href="tel:07045456348">📞 Call Now</a>
+
+<a class="btn" href="https://wa.me/917045456348">💬 WhatsApp</a>
+
+</section>
+
+<section style="padding:40px 20px;background:#111;text-align:center;color:white;">
+
+<h2 style="color:gold;">✨ Our Premium Services ✨</h2>
+
+<div style="margin-top:25px;">
+
+<div style="background:#1b1b1b;padding:20px;margin:15px;border-radius:12px;">
+<h3 style="color:gold;">💇 Hair Cut</h3>
+<p>Professional haircut by expert stylists.</p>
+</div>
+
+<div style="background:#1b1b1b;padding:20px;margin:15px;border-radius:12px;">
+<h3 style="color:gold;">🧔 Beard Styling</h3>
+<p>Modern beard styling & grooming.</p>
+</div>
+
+<div style="background:#1b1b1b;padding:20px;margin:15px;border-radius:12px;">
+<h3 style="color:gold;">🎨 Hair Coloring</h3>
+<p>Premium hair coloring with top products.</p>
+</div>
+
+<div style="background:#1b1b1b;padding:20px;margin:15px;border-radius:12px;">
+<h3 style="color:gold;">💆 Hair Spa</h3>
+<p>Relaxing spa treatment for healthy hair.</p>
+</div>
+
+<div style="background:#1b1b1b;padding:20px;margin:15px;border-radius:12px;">
+<h3 style="color:gold;">🧖 Facial</h3>
+<p>Glowing skin with professional facial care.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="padding:40px 20px;text-align:center;background:#000;color:white;">
+
+<h2 style="color:gold;">⭐ Customer Reviews</h2>
+
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Amazing haircut and excellent service!"</p>
+
+<br>
+
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Best salon in Goregaon West."</p>
+
+<br>
+
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Professional staff and premium experience."</p>
+
+</section>
+
+<section style="padding:40px 20px;background:#111;text-align:center;color:white;">
+
+<h2 style="color:gold;">⏰ Opening Hours</h2>
+
+<p>Monday - Sunday</p>
+
+<p>10:00 AM - 10:00 PM</p>
+
+<a href="https://maps.google.com/?q=Shop+No+10+Triveni+CHS+B+Wing+Shastri+Nagar+Goregaon+West+Mumbai+400104">
+
+<button style="padding:15px 30px;background:gold;border:none;border-radius:8px;font-size:18px;font-weight:bold;cursor:pointer;">
+
+📍 View on Google Maps
+
+</button>
+
+</a><section style="padding:40px 20px;background:#000;color:white;text-align:center;">
+
+<h2 style="color:gold;">📸 Salon Gallery</h2>
+
+<p>💇 Hair Cut</p>
+<p>🧔 Beard Styling</p>
+<p>💆 Hair Spa</p>
+<p>🎨 Hair Color</p>
+<p>🧖 Facial</p>
+
+</section>
+
+<section style="padding:40px 20px;background:#111;color:white;text-align:center;">
+
+<h2 style="color:gold;">Why Choose Us?</h2>
+
+<p>✅ Professional Staff</p>
+<p>✅ Premium Products</p>
+<p>✅ Affordable Pricing</p>
+<p>✅ Clean & Hygienic Salon</p>
+<p>✅ 100% Customer Satisfaction</p>
+
+</section>
+
+<footer style="background:#000;color:#aaa;text-align:center;padding:30px;">
+
+<h3 style="color:gold;">Luxury Salon</h3>
+
+<p>Premium Hair & Grooming Services</p>
 
 <p>📞 07045456348</p>
 
-<p>
-📍 Shop No.10, Triveni CHS B Wing,<br>
-Shastri Nagar, Goregaon West,<br>
-Mumbai - 400104
+<p>📍 Goregaon West, Mumbai</p>
+
+<p style="margin-top:20px;">
+© 2026 Luxury Salon. All Rights Reserved.
 </p>
 
-<a href="https://wa.me/917045456348">
-<button style="padding:15px 30px;">WhatsApp Now</button>
-</a>
+</footer>
 
 </body>
 </html>
