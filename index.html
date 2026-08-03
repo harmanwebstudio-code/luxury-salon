@@ -18,15 +18,38 @@ background:#111;
 color:#fff;
 }
 
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px;
-background:#000;
-position:sticky;
-top:0;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #000;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    z-index: 1000;
 }
+
+.logo {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 5px 10px;
+    background: rgba(212, 175, 55, 0.1);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
 
 .logo{
 font-size:28px;
